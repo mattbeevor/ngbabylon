@@ -1,4 +1,8 @@
-import { Component } from '@angular/core';
+import * as BABYLON from 'babylonjs';
+import { Component, Input, ElementRef } from '@angular/core';
+import { OnInit, OnChanges } from '@angular/core';
+
+declare var Plotly;
 
 @Component({
   selector: 'app-root',
@@ -6,5 +10,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
+  title="hello"
+
 }
